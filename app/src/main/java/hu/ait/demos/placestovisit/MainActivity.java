@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 touchHelperCallback);
         touchHelper.attachToRecyclerView(recyclerViewPlaces);
 
-        //layoutContent = (CoordinatorLayout) findViewById(
-        //        R.id.layoutContent);
+        layoutContent = (CoordinatorLayout) findViewById(
+                R.id.layoutContent);
 
         FloatingActionButton fabAdd = (FloatingActionButton) findViewById(R.id.btnAdd);
         fabAdd.setOnClickListener(new View.OnClickListener() {
